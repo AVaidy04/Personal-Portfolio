@@ -1,120 +1,166 @@
-<!-- Home Section -->
-<section class="home" id="home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anup Vaidya | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="Style/styles.css" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKB4Imkb9Pr8Xj8JhJ4VZ5gzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="fas fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
     <div class="home-content">
-        <h3>Hello, It's Me</h3>
-        <h1>Anup Vaidya</h1>
-        <h3>And I'm a <span>Full Stack Developer</span></h3>
-        <p>I build scalable web apps and intuitive interfaces using modern tech stacks. Let’s code something amazing together!</p>
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/anup-vaidya-289b66258" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/AVaidy04" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://drive.google.com/file/d/1bLZdfxHFDhc8GNqIhu-H65wptfI5K9i2/view" target="_blank"><i class="fa fa-file"></i></a>
-        </div>
-        <a href="#contact" class="btn">Contact Me</a>
+      <h3>Hello, It's Me</h3>
+      <h1>Anup Vaidya</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>I build scalable web apps and intuitive interfaces using modern tech stacks. Let’s code something amazing together!</p>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/anup-vaidya-289b66258" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/AVaidy04" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://drive.google.com/file/d/1bLZdfxHFDhc8GNqIhu-H65wptfI5K9i2/view" target="_blank"><i class="fa fa-file"></i></a>
+      </div>
+      <a href="#contact" class="btn">Contact Me</a>
     </div>
     <div class="home-img">
-        <img src="img/aboutpic.png" alt="">
+      <img src="img/aboutpic.png" alt="">
     </div>
-</section>
+  </section>
 
-<!-- About Section -->
-<section class="about" id="about">
+  <!-- About Section -->
+  <section class="about" id="about">
     <div class="about-img">
-        <img src="img/profiledp.png" alt="">
+      <img src="img/profilepic.png" alt="">
     </div>
     <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Developer</h3>
-        <p>I’m a passionate full stack developer and Computer Science student who thrives on solving real-world problems using code. As Tech Head at TeamCodelocked, I lead with creativity, collaboration, and a drive to innovate. Whether it's backend logic or sleek UI design, I enjoy building things that make a difference.</p>
-        <a href="#portfolio" class="btn">View Projects</a>
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Developer</h3>
+      <p>I’m a passionate full stack developer and Computer Science student who thrives on solving real-world problems using code. As Tech Head at TeamCodelocked, I lead with creativity, collaboration, and a drive to innovate. Whether it's backend logic or sleek UI design, I enjoy building things that make a difference.</p>
+      <a href="#portfolio" class="btn">View Projects</a>
     </div>
-</section>
+  </section>
 
-<!-- Services Section -->
-<section class="services" id="services">
+  <!-- Services Section -->
+  <section class="services" id="services">
     <h2 class="heading">My <span>Services</span></h2>
     <div class="services-container">
-        <div class="services-box">
-            <i class="fas fa-code"></i>
-            <h3>Web Development</h3>
-            <p>Full-stack development using modern frameworks like React, Node.js, Spring Boot, and MongoDB. I craft clean, efficient, and scalable solutions.</p>
-        </div>
-        <div class="services-box">
-            <i class="fas fa-brain"></i>
-            <h3>ML & NLP Projects</h3>
-            <p>Skilled in developing ML/NLP pipelines for real-world problems, including hate speech detection, tweet classification, and social sentiment analysis.</p>
-        </div>
-        <div class="services-box">
-            <i class="fas fa-server"></i>
-            <h3>Deployment & DevOps</h3>
-            <p>Experienced with Dockerizing applications and deploying them on AWS EC2, integrating CI/CD pipelines for fast, reliable delivery.</p>
-        </div>
+      <div class="services-box">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Full-stack development using modern frameworks like React, Node.js, Spring Boot, and MongoDB. I craft clean, efficient, and scalable solutions.</p>
+      </div>
+      <div class="services-box">
+        <i class="fas fa-brain"></i>
+        <h3>ML & NLP Projects</h3>
+        <p>Skilled in developing ML/NLP pipelines for real-world problems, including hate speech detection, tweet classification, and social sentiment analysis.</p>
+      </div>
+      <div class="services-box">
+        <i class="fas fa-server"></i>
+        <h3>Deployment & DevOps</h3>
+        <p>Experienced with Dockerizing applications and deploying them on AWS EC2, integrating CI/CD pipelines for fast, reliable delivery.</p>
+      </div>
     </div>
-</section>
+  </section>
 
-<!-- Portfolio Section -->
-<section class="portfolio" id="portfolio">
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
     <h2 class="heading">Latest <span>Projects</span></h2>
     <div class="portfolio-container">
-        <div class="portfolio-box">
-            <img src="img/1.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Research Assistant (Docker + EC2)</h4>
-                <p>Chrome extension powered by Spring AI + Gemini for real-time document summarization. Backend is Dockerized and deployed on AWS EC2.</p>
-                <a href="https://github.com/AVaidy04/Research-assistant-docker-ec2" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-            </div>
+      <div class="portfolio-box">
+        <img src="img/1.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Research Assistant (Docker + EC2)</h4>
+          <p>Chrome extension powered by Spring AI + Gemini for real-time document summarization. Backend is Dockerized and deployed on AWS EC2.</p>
+          <a href="https://github.com/AVaidy04/Research-assistant-docker-ec2" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         </div>
+      </div>
 
-        <div class="portfolio-box">
-            <img src="img/2.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>Hate Speech Detection</h4>
-                <p>ML/NLP pipeline that classifies tweets as Neutral, Offensive, or Hate using preprocessing, vectorization, and trained models. Frontend in React.</p>
-                <a href="https://github.com/AVaidy04/Hate_speech_ML_proj" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-            </div>
+      <div class="portfolio-box">
+        <img src="img/2.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Hate Speech Detection</h4>
+          <p>ML/NLP pipeline that classifies tweets as Neutral, Offensive, or Hate using preprocessing, vectorization, and trained models. Frontend in React.</p>
+          <a href="https://github.com/AVaidy04/Hate_speech_ML_proj" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         </div>
+      </div>
 
-        <div class="portfolio-box">
-            <img src="img/3.jpg" alt="">
-            <div class="portfolio-layer">
-                <h4>MERN Vaultify</h4>
-                <p>A secure authentication system using MERN stack. Features JWT-based auth, Nodemailer for email, Toastify for UX, and full user session handling.</p>
-                <a href="https://github.com/AVaidy04/MERN_Vaultify" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-            </div>
+      <div class="portfolio-box">
+        <img src="img/3.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>MERN Vaultify</h4>
+          <p>A secure authentication system using MERN stack. Features JWT-based auth, Nodemailer for email, Toastify for UX, and full user session handling.</p>
+          <a href="https://github.com/AVaidy04/MERN_Vaultify" target="_blank"><i class="fas fa-external-link-alt"></i></a>
         </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<!-- Contact Section -->
-<section class="contact" id="contact">
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
 
     <form action="#">
-        <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
-        </div>
-        <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Email Subject">
-        </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" value="Send Message" class="btn">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
     </form>
 
     <div class="contact-info">
-        <p><i class="fa-solid fa-envelope"></i> anupvaidya2004@gmail.com</p>
-        <p><i class="fa-solid fa-phone"></i> +91 86602 82207</p>
-        <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/anup-vaidya-289b66258" target="_blank">linkedin.com/in/anup-vaidya-289b66258</a></p>
+      <p><i class="fa-solid fa-envelope"></i> anupvaidya2004@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +91 86602 82207</p>
+      <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/anup-vaidya-289b66258" target="_blank">linkedin.com/in/anup-vaidya-289b66258</a></p>
     </div>
-</section>
+  </section>
 
-<!-- Footer -->
-<footer class="footer">
+  <!-- Footer -->
+  <footer class="footer">
     <div class="footer-text">
-        <p>Copyright &copy; 2025 by Anup Vaidya | All Rights Reserved.</p>
+      <p>Copyright &copy; 2025 by Anup Vaidya | All Rights Reserved.</p>
     </div>
     <div class="footer-iconTop">
-        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
     </div>
-</footer>
+  </footer>
+
+  <!-- Main JS -->
+  <script src="JS/main.js"></script>
+</body>
+</html>
